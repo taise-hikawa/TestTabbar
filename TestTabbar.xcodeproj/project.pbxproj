@@ -15,6 +15,8 @@
 		D3595310252B3CFA00EBAA09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D359530E252B3CFA00EBAA09 /* LaunchScreen.storyboard */; };
 		D359531B252B3CFB00EBAA09 /* TestTabbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D359531A252B3CFB00EBAA09 /* TestTabbarTests.swift */; };
 		D3595326252B3CFB00EBAA09 /* TestTabbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3595325252B3CFB00EBAA09 /* TestTabbarUITests.swift */; };
+		D3595337252B3DB700EBAA09 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3595336252B3DB700EBAA09 /* SecondViewController.swift */; };
+		D359533C252B409900EBAA09 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D359533B252B409900EBAA09 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D3595321252B3CFB00EBAA09 /* TestTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3595325252B3CFB00EBAA09 /* TestTabbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTabbarUITests.swift; sourceTree = "<group>"; };
 		D3595327252B3CFB00EBAA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3595336252B3DB700EBAA09 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D359533B252B409900EBAA09 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		D35952F7252B3CF400EBAA09 = {
 			isa = PBXGroup;
 			children = (
+				D359533B252B409900EBAA09 /* ThirdViewController.swift */,
+				D3595336252B3DB700EBAA09 /* SecondViewController.swift */,
 				D3595302252B3CF400EBAA09 /* TestTabbar */,
 				D3595319252B3CFB00EBAA09 /* TestTabbarTests */,
 				D3595324252B3CFB00EBAA09 /* TestTabbarUITests */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3595337252B3DB700EBAA09 /* SecondViewController.swift in Sources */,
 				D3595308252B3CF400EBAA09 /* ViewController.swift in Sources */,
+				D359533C252B409900EBAA09 /* ThirdViewController.swift in Sources */,
 				D3595304252B3CF400EBAA09 /* AppDelegate.swift in Sources */,
 				D3595306252B3CF400EBAA09 /* SceneDelegate.swift in Sources */,
 			);

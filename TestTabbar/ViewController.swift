@@ -9,9 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBAction func moveButtonTap(_ sender: Any) {
+        print("tapped")
+        
+        performSegue(withIdentifier: "toNextView", sender: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
 
